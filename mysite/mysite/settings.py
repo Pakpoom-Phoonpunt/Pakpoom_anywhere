@@ -25,7 +25,7 @@ SECRET_KEY = '+v6a6flutgq+dr-y$^+-5j23$8hr#ficwiv@h$-hk9-ied*+l4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pakpoom.pythonanywhere.com']
 
 
 # Application definition
@@ -121,3 +121,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = '/home/pakpoom/Pakpoom_anywhere/mysite/static'

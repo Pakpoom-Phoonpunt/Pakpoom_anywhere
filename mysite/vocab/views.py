@@ -28,3 +28,6 @@ def addWord(request):
         context = {'vocabList': Vocab.objects.all()}
         return render(request,"vocab/index.html",context)
     return HttpResponse("เจ้าไม่ได้ Enter Vocab or Definition ไอ้กรวก")
+
+def home(request):
+    return render(request, 'vocab/home.html')
